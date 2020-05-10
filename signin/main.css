@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(16, 213, 214);
+  background: linear-gradient(90deg,
+      rgba(16, 213, 214, 1) 9%,
+      rgba(107, 115, 223, 1) 47%,
+      rgba(255, 0, 241, 1) 88%);
+}
+
+.login-area {
+  border-radius: 12px;
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: rgb(216, 246, 239);
+  background: radial-gradient(circle,
+      rgba(216, 246, 239, 0.7035407913165266) 11%,
+      rgba(208, 82, 175, 0.5242690826330532) 90%);
+  box-shadow: 14px 15px 32px -12px rgba(0, 0, 0, 0.75);
+
+}
+
+form {
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 12px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  margin: 10px 0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 5px;
+  width: 75%;
+  border: none;
+  background: linear-gradient(90deg,
+      rgba(16, 213, 214, 1) 9%,
+      rgba(107, 115, 223, 1) 47%,
+      rgba(255, 0, 241, 1) 88%);
+  margin-top: 10px;
+}
+
+.ask {
+  margin-top: -5px;
+  font-size: 14px;
+  float: right;
+  text-decoration: none;
+}
+
+img {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+
+.social {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
